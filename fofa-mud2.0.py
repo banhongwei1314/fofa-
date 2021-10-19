@@ -5,9 +5,9 @@ import time
 import xlsxwriter as xw
 
 
-api_key = "0281af0b27a5c5212cd5590989e546cf"
+api_key = ""
 headers = {
-    'cookie':'Hm_lvt_9490413c5eebdadf757c2be2c816aedf=1617070559,1617238416,1617681594,1617852722; befor_router=%2Fresult%3Fqbase64%3DYm9keT0iYWRtaW4xMjMi; fofa_token=eyJhbGciOiJIUzUxMiIsImtpZCI6Ik5XWTVZakF4TVRkalltSTJNRFZsWXpRM05EWXdaakF3TURVMlkyWTNZemd3TUdRd1pUTmpZUT09IiwidHlwIjoiSldUIn0.eyJpZCI6NDk0OTgsIm1pZCI6MTAwMDMzMzgwLCJ1c2VybmFtZSI6ImJhbmhvbmd3ZWkiLCJleHAiOjE2MzI0MjI2Mzh9.o-NwWdKCcd121qeE-09jM4GgPEIWQL9zxbRUTfKujAVsbqnVly674d_JLReO35ZQzM03Vbi2RGRfcUI3lBWQDA; user=%7B%22id%22%3A49498%2C%22mid%22%3A100033380%2C%22is_admin%22%3Afalse%2C%22username%22%3A%22banhongwei%22%2C%22nickname%22%3A%22%22%2C%22email%22%3A%221282905652%40qq.com%22%2C%22avatar_medium%22%3A%22https%3A%2F%2Fnosec.org%2Fmissing.jpg%22%2C%22avatar_thumb%22%3A%22https%3A%2F%2Fnosec.org%2Fmissing.jpg%22%2C%22rank_name%22%3A%22%E6%99%AE%E9%80%9A%E4%BC%9A%E5%91%98%22%2C%22rank_level%22%3A1%2C%22company_name%22%3A%22%22%2C%22coins%22%3A0%2C%22credits%22%3A2067%2C%22expiration%22%3A%22-%22%2C%22login_at%22%3A1632379438%7D; refresh_token=eyJhbGciOiJIUzUxMiIsImtpZCI6Ik5XWTVZakF4TVRkalltSTJNRFZsWXpRM05EWXdaakF3TURVMlkyWTNZemd3TUdRd1pUTmpZUT09IiwidHlwIjoiSldUIn0.eyJpZCI6NDk0OTgsIm1pZCI6MTAwMDMzMzgwLCJ1c2VybmFtZSI6ImJhbmhvbmd3ZWkiLCJleHAiOjE2MzI2Mzg2MzgsImlzcyI6InJlZnJlc2gifQ.XWsbq8f5xYCPOK4k2X16vLBdZvQdrSHt1R52ja9ValRsjMrXiyEn7U9Hf4_ZFWA9Fx41P-jafbnS1C7Fl56Udw'
+    'cookie':''
 }
 
 def yufa(yeshu,fileName):
